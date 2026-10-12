@@ -216,9 +216,9 @@ body.clicking #cur{transform:translate(-50%,-50%) scale(0.6);}
 
 <!-- BOOT SCREEN -->
 <div id="boot">
-  <div class="boot-title">Rolass_</div>
+  <div class="boot-title">Rolas</div>
   <div class="boot-lines">
-    <div class="boot-line ok" style="animation-delay:0.2s">initializing RolassOS v1.0</div>
+    <div class="boot-line ok" style="animation-delay:0.2s">initializing RolasOS v1.0</div>
     <div class="boot-line ok" style="animation-delay:0.6s">loading profile data</div>
     <div class="boot-line ok" style="animation-delay:1.0s">mounting filesystem</div>
     <div class="boot-line ok" style="animation-delay:1.4s">connecting to vilnius, lt</div>
@@ -234,7 +234,7 @@ body.clicking #cur{transform:translate(-50%,-50%) scale(0.6);}
 <!-- ABOUT PANEL -->
 <div class="panel" id="panel-about">
   <div class="panel-hdr">
-    <span class="panel-title">About // Rolass_</span>
+    <span class="panel-title">About // Rolas</span>
     <button class="panel-close" onclick="closeAll()">✕</button>
   </div>
   <div class="ap-banner">
@@ -295,7 +295,7 @@ body.clicking #cur{transform:translate(-50%,-50%) scale(0.6);}
       </div>
     </div>
     <div class="profile-info">
-      <div class="profile-name" data-text="Rolass_">Rolass_</div>
+      <div class="profile-name" data-text="Rolas">Rolas</div>
       <div class="profile-handle">rolass1</div>
       <div class="profile-tag">Vilnius, LT</div>
     </div>
@@ -540,7 +540,7 @@ function copyDiscord(){navigator.clipboard.writeText('rolass1').then(()=>showToa
 const tbody=document.getElementById('tbody'),tin=document.getElementById('tin');
 const cmds={
   help:()=>['commands: about, links, discord, time, clear, secret'],
-  about:()=>['Rolass_ // Vilnius, LT','into gaming and design. probably online.'],
+  about:()=>['Rolas // Vilnius, LT','music,nature,games. probably online.'],
   links:()=>['discord: rolass1','steam: steamcommunity.com/profiles/76561199378862224'],
   discord:()=>{copyDiscord();return['copied discord to clipboard.'];},
   time:()=>['current time: '+new Date().toLocaleTimeString()],
